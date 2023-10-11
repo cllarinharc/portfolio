@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/media.css">
+
+</head>
+
+<body>
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">
+        Ana Clara
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="expansao-nav">
+      <div class="logo">Ana Clara</div>
+      <div class="expansao-menu">
+        <div class="expansao-icones" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre mim</a></li>
+          <li><a href="#experiencia" onclick="toggleMenu()">Experiência</a></li>
+          <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#contatos" onclick="toggleMenu()">Contatos</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <script src="script.js"></script>
+</body>
+
+</html>
